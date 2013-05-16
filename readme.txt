@@ -8,8 +8,7 @@ Stable tag: trunk
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-MotoPress is the intuitive and easy to use plugin that allows you easily change the overall appearance of your website by editing your site’s layout
-
+MotoPress is intuitive and easy to use plugin that allows you easily change the overall appearance of your website by editing your site's layout
 == Description ==
 
 MotoPress is your fast and successful way to edit the content on your website, blog or online store based on Wordpress. This easy to use plugin allows you to create, resize and change page templates quickly and easily. Without any particular technical knowledge you are able to add new content blocks, manage media and arrange data right in the editor and view all changes in real time.
@@ -26,25 +25,25 @@ By using MotoPress Wordpress plugin you are able to:
 
 - quickly manage content right on your Wordpress site;
 - change, move  and add content blocks only with few clicks;
-- edit blocks with website’s data and view the changes at once;  
+- edit blocks with website's data and view the changes at once;  
 - manage media with ease;
 - edit new widgets, posts and pages;
 - make your website responsive and adaptive.
 
-For more information visit [MotoPress](http://getmotopress.com)
+For more information visit [MotoPress](http://www.getmotopress.com)
 
 == Installation ==
 
-As MotoPress plugin follows GPL and all WordPress guidelines it is absolutely free, the only requirement to install the plugin is that your Wordpress theme should be made specially for MotoPress. Look at the [Documentation](http://getmotopress.com/documentation) how to change the default WP to MotoPress theme quickly and easily or just check out tailored MotoPress website templates made specifically to be used with the plugin
+As MotoPress plugin follows GPL and all WordPress guidelines it is absolutely free, the only requirement to install the plugin is that your Wordpress theme should be made specially for MotoPress. Look at the [Documentation](http://www.getmotopress.com/documentation) how to change the default WP to MotoPress theme quickly and easily or just check out tailored MotoPress website templates made specifically to be used with the plugin
 
 Install
 
 1. Upload the MotoPress plugin to the /wp-content/plugins/ directory.
-2. Activate the plugin through the ‘Plugins’ menu in Wordpress.
+2. Activate the plugin through the 'Plugins' menu in Wordpress.
 
-You’ll find ‘MotoPress’ in your Wordpress admin panel.
+You'll find 'MotoPress' in your Wordpress admin panel.
 
-For basic usage you may also look over the [MotoPress](http://getmotopress.com) homepage
+For basic usage you may also look over the [MotoPress](http://www.getmotopress.com) homepage
 
 == Frequently Asked Questions ==
 
