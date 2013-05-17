@@ -67,6 +67,7 @@ function motopressMenu() {
 }
 
 function motopressAdminBarMenu($wp_admin_bar) {
+    if (isset($_GET['page']) && in_array($_GET['page'], array('motopress', 'motopress_visual_editor', 'motopress_options'))) {
     $wp_admin_bar->remove_node('view-site');
 
     $parent = 'site-name';
@@ -113,6 +114,7 @@ function motopressAdminBarMenu($wp_admin_bar) {
     foreach ($menu as $item) {
         $wp_admin_bar->add_node($item);
     }
+}
 }
 
 function motopressAdminStylesAndScripts() {
