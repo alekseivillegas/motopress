@@ -24,23 +24,14 @@ MotoPress is your fast and successful way to edit the appearance of your website
 By using MotoPress Wordpress plugin you are able to:
 
 - easily create, change and duplicate website's pages;
-
 - remove template pages with ease;
-
 - fully change the layout's structure;
-
-- display and hide website’s blocks on different devices;
-
+- display and hide website's blocks on different devices;
 - quickly manage content right on your WordPress site;
-
 - change, move and add content blocks only with few clicks;
-
 - edit blocks with website's data and view the changes at once;
-
 - manage media with ease;
-
 - edit new widgets, posts and pages;
-
 - make your website responsive and adaptive;
 
 For more information visit [MotoPress](http://www.getmotopress.com)
