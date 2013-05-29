@@ -36,7 +36,7 @@ add_action('admin_bar_menu', 'motopressAdminBarMenu', 999);
 
 function motopressInit() {
     global $motopressSettings;
-
+    
     wp_register_style('style', plugin_dir_url(__FILE__) . 'includes/css/style.css', null, $motopressSettings['plugin_version']);
     wp_register_script('detectBrowser', plugin_dir_url(__FILE__).'mp/detectBrowser/detectBrowser.js', null, $motopressSettings['plugin_version']);
 }
@@ -68,53 +68,53 @@ function motopressMenu() {
 
 function motopressAdminBarMenu($wp_admin_bar) {
     if (isset($_GET['page']) && in_array($_GET['page'], array('motopress', 'motopress_visual_editor', 'motopress_options'))) {
-    $wp_admin_bar->remove_node('view-site');
+        $wp_admin_bar->remove_node('view-site');
 
-    $parent = 'site-name';
-    $target = '_blank';
-    $menu = array(
-        array(
-            'id' => 'motopress-dashboard',
-            'title' => __('Dashboard'),
-            'parent' => $parent,
-            'href' => admin_url(),
-            'meta' => array(
-                'target' => $target
+        $parent = 'site-name';
+        $target = '_blank';
+        $menu = array(
+            array(
+                'id' => 'motopress-dashboard',
+                'title' => __('Dashboard'),
+                'parent' => $parent,
+                'href' => admin_url(),
+                'meta' => array(
+                    'target' => $target
+                )
+            ),
+            array(
+                'id' => 'motopress-pages',
+                'title' => __('Pages'),
+                'parent' => $parent,
+                'href' => admin_url('edit.php?post_type=page'),
+                'meta' => array(
+                    'target' => $target
+                )
+            ),
+            array(
+                'id' => 'motopress-menus',
+                'title' => __('Menus'),
+                'parent' => $parent,
+                'href' => admin_url('nav-menus.php'),
+                'meta' => array(
+                    'target' => $target
+                )
+            ),
+            array(
+                'id' => 'motopress-widgets',
+                'title' => __('Widgets'),
+                'parent' => $parent,
+                'href' => admin_url('widgets.php'),
+                'meta' => array(
+                    'target' => $target
+                )
             )
-        ),
-        array(
-            'id' => 'motopress-pages',
-            'title' => __('Pages'),
-            'parent' => $parent,
-            'href' => admin_url('edit.php?post_type=page'),
-            'meta' => array(
-                'target' => $target
-            )
-        ),
-        array(
-            'id' => 'motopress-menus',
-            'title' => __('Menus'),
-            'parent' => $parent,
-            'href' => admin_url('nav-menus.php'),
-            'meta' => array(
-                'target' => $target
-            )
-        ),
-        array(
-            'id' => 'motopress-widgets',
-            'title' => __('Widgets'),
-            'parent' => $parent,
-            'href' => admin_url('widgets.php'),
-            'meta' => array(
-                'target' => $target
-            )
-        )
-    );
+        );
 
-    foreach ($menu as $item) {
-        $wp_admin_bar->add_node($item);
+        foreach ($menu as $item) {
+            $wp_admin_bar->add_node($item);
+        }
     }
-}
 }
 
 function motopressAdminStylesAndScripts() {
@@ -180,18 +180,18 @@ function checkjQueryVer() {
     $jQuery = file_get_contents(ABSPATH . WPINC . '/js/jquery/jquery.js');
     $jQueryUI = file_get_contents(ABSPATH . WPINC . '/js/jquery/ui/jquery.ui.core.min.js');
 
-    $pattern = '/v(\d+\.{1}\d+\.{1}\d+)/is';
+    $pattern = '/v((\d+\.{1}){1}(\d+){1}(\.{1}\d+)?)/is';
     preg_match($pattern, $jQuery, $jQueryMatches);
     if (!empty($jQueryMatches[1])) {
-        $jQueryVer = (float)$jQueryMatches[1];
+        $jQueryVer = $jQueryMatches[1];
     }
 
     preg_match($pattern, $jQueryUI, $jQueryUIMatches);
     if (!empty($jQueryUIMatches[1])) {
-        $jQueryUIVer = (float)$jQueryUIMatches[1];
+        $jQueryUIVer = $jQueryUIMatches[1];
     }
 
-    return ($jQueryVer >= $requirements->getMinjQueryVer() && $jQueryUIVer >= $requirements->getMinjQueryUIVer()) ? true : false;
+    return (version_compare($jQueryVer, $requirements->getMinjQueryVer(), '>=') && version_compare($jQueryUIVer, $requirements->getMinjQueryUIVer(), '>=')) ? true : false;
 }
 
 function getThemeMotopressVer($content) {

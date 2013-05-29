@@ -15,6 +15,7 @@ MotoPress is your fast and successful way to edit the appearance of your website
 
 = Key Benefits of MotoPress: =
 
+
 * Drag and Drop editor lets users create, add and edit content blocks on the fly and get really advanced layouts for your website.
 
 * Twitter Bootstrap based platform includes responsive grid system, LESS CSS, dozens of interface components and useful JavaScript extensions.
@@ -34,7 +35,7 @@ By using MotoPress Wordpress plugin you are able to:
 - edit new widgets, posts and pages;
 - make your website responsive and adaptive;
 
-For more information visit [MotoPress](http://www.getmotopress.com)
+Check out tailored MotoPress website templates made specifically to be used with the plugin. For more information visit [MotoPress](http://www.getmotopress.com)
 
 == Installation ==
 
@@ -57,7 +58,7 @@ Please watch the following [video](http://www.youtube.com/watch?v=S4J57yVxu50)
 
 = Does it work with any Wordpress Theme? =
 
-Wordpress theme should be made specially for MotoPress. Look at the Documentation how to change the default WP to MotoPress theme quickly and easily.
+Wordpress theme should be made specially for MotoPress. Look at the [Documentation](http://www.getmotopress.com/documentation) how to change the default WP to MotoPress theme quickly and easily.
 
 = Where can I find WP themes made specially for MotoPress? =
 
