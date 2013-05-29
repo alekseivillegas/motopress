@@ -1,13 +1,8 @@
 <?php
-/**
- * Description of Requirements
- *
- * @author dmitry
- */
 class Requirements {
     private $curl;
-    private $minjQueryVer = 1.7;
-    private $minjQueryUIVer = 1.8;
+    private $minjQueryVer = '1.7';
+    private $minjQueryUIVer = '1.8';
 
     public function __construct() {
         @ini_set('display_errors', 1);
