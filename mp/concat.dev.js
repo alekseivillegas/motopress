@@ -389,14 +389,14 @@ steal('jquery/controller', function($){
 
             //iframeHtml.find('link[href*="bootstrap"]').remove();
             //MP.Iframe.contents.find('script[src*="bootstrap"]').remove();
-            
+
             var head = MP.Iframe.contents.find('head')[0];
-            
+
             var stealVerScript = $('<script />', {
-                text: 'steal = { production: "mp/iframeProd/production.js" + parent.motopress.pluginVersionParam };'
+                text: 'var steal = { production: "mp/iframeProd/production.js" + parent.motopress.pluginVersionParam };'
             })[0];
             this.appendScript(head, stealVerScript);
-            
+
             var script = $('<script />', {
                 src: MP.Settings.pluginRootUrl + '/' + MP.Settings.pluginName + '/steal/steal.production.js?mp/iframeProd'
             })[0];

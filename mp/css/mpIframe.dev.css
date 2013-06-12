@@ -144,7 +144,7 @@ body {
     opacity: 0.5;
 }
 */
-.container:not(#motopress-grid) .row [class*="span"] {
+.container:not(#motopress-grid) :not(.motopress-inactive) .row [class*="span"] {
   position: relative;
   min-height: 50px;
 }
@@ -471,7 +471,7 @@ body {
 .motopress-new-block:hover .motopress-left-menu-icon,
 .motopress-new-block .motopress-left-menu-icon:hover,
 .motopress-new-block:hover .motopress-left-menu-icon:hover {
-  background-image: url('../../images/leftMenu.png?ver=1.0') !important;
+  background-image: url('../../images/leftMenu.png?ver=1.1') !important;
   cursor: move !important;
   display: inline !important;
   width: 18px !important;

@@ -2,8 +2,8 @@
 /*
 Plugin Name: MotoPress
 Plugin URI: http://www.getmotopress.com/
-Description: MotoPress is the efficient, intuitive and easy to use plugin that allows you easily change the overall appearance of your website by editing your site’s layout.
-Version: 1.0
+Description: MotoPress is the efficient, intuitive and easy to use plugin that allows you easily change the overall appearance of your website by editing your site's layout.
+Version: 1.1
 Author: MotoPress
 Author URI: http://www.getmotopress.com/
 License: GPLv2

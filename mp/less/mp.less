@@ -313,7 +313,7 @@ body{
 .btn-default{
     .motopress-btn;
     background: #f0f0f0;
-    color: #5f5f5f ;
+    color: #5f5f5f;
     border: #d8d8d8 1px solid;
 }
 .btn-default:hover{
@@ -457,8 +457,8 @@ body{
 
 /* Static */
 #motopress-static-editor-modal {
-    width: 570px;
-    margin: -250px 0 0 -285px;
+    width: 70%;
+    margin: -250px 0 0 -35%;
     .modal-body {
         .blockName-label {
             color: #858585;
@@ -468,11 +468,20 @@ body{
         .wp-editor-container {
             height: 100%;
         }
+        #motopress-static-content-html, #motopress-static-content-tmce {
+            display: none;
+        }
     }
     .mceIframeContainer{
-        background-color: #ffffff;
+        background-color: #fff;
     }
 
+}
+@media (min-width: 1200px) {
+    #motopress-static-editor-modal {
+        width: 1100px;
+        margin: -250px 0 0 -550px;
+    }
 }
 #motopress-static-content_ifr {
     max-height: 200px;

@@ -3,7 +3,6 @@ body {
   margin-top: 0px !important;
 }
 .container:not(#motopress-grid) .row [class*="span"] {
-  position: relative;
   overflow: hidden;
 }
 .motopress-default,

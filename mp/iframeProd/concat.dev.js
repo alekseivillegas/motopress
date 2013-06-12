@@ -1891,7 +1891,7 @@ steal('jquery/class')
                     }
 
                     parent.MP.Navbar.myThis.preload(false);
-//                    parent.MP.Navbar.myThis.showWelcomeWindow();
+                    //parent.MP.Navbar.myThis.showWelcomeWindow();
                 },
                 error: function() {
                     parent.MP.Flash.setFlash(localStorage.getItem('listError'), 'error');
