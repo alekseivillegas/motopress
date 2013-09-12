@@ -1,6 +1,5 @@
 <?php
 require_once 'settings.php';
-require_once 'access.php';
 
 class InitTemplate {
     const MOTOPRESS_SINGLE_QUOTE = 'motopress_single_quote';

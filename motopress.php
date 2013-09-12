@@ -2,8 +2,8 @@
 /*
 Plugin Name: MotoPress
 Plugin URI: http://www.getmotopress.com/
-Description: MotoPress is the efficient, intuitive and easy to use plugin that allows you easily change the overall appearance of your website by editing your site's layout.
-Version: 1.1
+Description: MotoPress is the efficient, intuitive and easy to use plugin that allows you easily change the overall appearance of your website by editing your sites layout.
+Version: 1.2
 Author: MotoPress
 Author URI: http://www.getmotopress.com/
 License: GPLv2
@@ -36,7 +36,7 @@ add_action('admin_bar_menu', 'motopressAdminBarMenu', 999);
 
 function motopressInit() {
     global $motopressSettings;
-    
+
     wp_register_style('style', plugin_dir_url(__FILE__) . 'includes/css/style.css', null, $motopressSettings['plugin_version']);
     wp_register_script('detectBrowser', plugin_dir_url(__FILE__).'mp/detectBrowser/detectBrowser.js', null, $motopressSettings['plugin_version']);
 }
@@ -45,7 +45,7 @@ function motopressMenu() {
     global $lang;
     $lang = getLanguageDict();
 
-    $mainPage = add_menu_page('MotoPress', 'MotoPress', 8, 'motopress', 'motopress', plugin_dir_url(__FILE__) . 'favicon.ico', null);
+    $mainPage = add_menu_page('MotoPress', 'MotoPress', 'read', 'motopress', 'motopress', plugin_dir_url(__FILE__) . 'favicon.ico', null);
 
     global $requirements;
     $requirements = new Requirements();
@@ -57,17 +57,17 @@ function motopressMenu() {
     $isjQueryVer = checkjQueryVer();
 
     if ($isSupportedTheme && $isjQueryVer) {
-        add_submenu_page('motopress', $lang->visualEditor, $lang->visualEditor, 8, 'motopress_visual_editor', 'motopressVisualEditor');
+        add_submenu_page('motopress', $lang->visualEditor, $lang->visualEditor, 'read', 'motopress_visual_editor', 'motopressVisualEditor');
     }
 
-    $optionsPage = add_submenu_page('motopress', $lang->motopressOptions, $lang->motopressOptions, 8, 'motopress_options', 'motopressOptions');
+    $optionsPage = add_submenu_page('motopress', $lang->motopressOptions, $lang->motopressOptions, 'manage_options', 'motopress_options', 'motopressOptions');
 
     add_action('admin_print_styles-' . $mainPage, 'motopressAdminStylesAndScripts' );
     add_action('admin_print_styles-' . $optionsPage, 'motopressAdminStylesAndScripts' );
 }
 
 function motopressAdminBarMenu($wp_admin_bar) {
-    if (isset($_GET['page']) && in_array($_GET['page'], array('motopress', 'motopress_visual_editor', 'motopress_options'))) {
+    if (isset($_GET['page']) && $_GET['page'] === 'motopress_visual_editor') {
         $wp_admin_bar->remove_node('view-site');
 
         $parent = 'site-name';

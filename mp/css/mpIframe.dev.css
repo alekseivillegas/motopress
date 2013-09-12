@@ -471,7 +471,7 @@ body {
 .motopress-new-block:hover .motopress-left-menu-icon,
 .motopress-new-block .motopress-left-menu-icon:hover,
 .motopress-new-block:hover .motopress-left-menu-icon:hover {
-  background-image: url('../../images/leftMenu.png?ver=1.1') !important;
+  background-image: url('../../images/leftMenu.png?ver=1.2') !important;
   cursor: move !important;
   display: inline !important;
   width: 18px !important;

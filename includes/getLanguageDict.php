@@ -1,6 +1,5 @@
 <?php
 require_once 'settings.php';
-require_once 'access.php';
 
 function getLanguageDict() {
     global $motopressSettings;

@@ -396,7 +396,6 @@ steal('jquery/controller', function($){
                 text: 'var steal = { production: "mp/iframeProd/production.js" + parent.motopress.pluginVersionParam };'
             })[0];
             this.appendScript(head, stealVerScript);
-
             var script = $('<script />', {
                 src: MP.Settings.pluginRootUrl + '/' + MP.Settings.pluginName + '/steal/steal.production.js?mp/iframeProd'
             })[0];
