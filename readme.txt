@@ -17,7 +17,7 @@ MotoPress Layout Editor is your fast and successful way to edit the appearance o
 MotoPress Content Editor replaces the default WordPress builder and enables to create any post structure. Its intuitive drag and drop functionality allows users to manage text, add built-in content elements and without HTML tags fully customize your article. 
 MotoPress Content Editor works with any WordPress theme and includes 24/7 support.
 
-For more detailed data visit the [MotoPress Content Editor](http://www.getmotopress.com/content-editor/) page or you [try how it works](http://demo.getmotopress.com/wp-admin/).
+For more detailed data visit the [MotoPress Content Editor](http://www.getmotopress.com/content-editor/) page.
 
 
 Key Benefits of MotoPress Layout Editor:
