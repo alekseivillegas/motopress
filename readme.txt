@@ -11,29 +11,34 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 MotoPress is intuitive and easy to use plugin that allows you easily change the overall appearance of your website by editing your site's layout
 == Description ==
 
-MotoPress is your fast and successful way to edit the appearance of your website, blog or online store based on WordPress. This easy to use plugin allows you to create, move and change page templates quickly and easily. The gold of MotoPress is the opportunity to edit and arrange  the content of your website in hereafter. Without any particular technical knowledge you will be able to add new content blocks, manage media and arrange data right in the editor and view all changes in real time.
+MotoPress Layout Editor is your fast and successful way to edit the appearance of your website, blog or online store based on WordPress. This easy to use plugin allows you to create, move and change page templates quickly and easily. Without any particular technical knowledge you are able to manage media data, add new blocks, change their places, duplicate and delete them. The gold of MotoPress Layout Editor is the opportunity to customize all data right in the builder and view all changes in real time.
 
-= Key Benefits of MotoPress: =
+= Now available: MotoPress Content Editor for any WordPress website =
+MotoPress Content Editor replaces the default WordPress builder and enables to create any post structure. Its intuitive drag and drop functionality allows users to manage text, add built-in content elements and without HTML tags fully customize your article. 
+MotoPress Content Editor works with any WordPress theme and includes 24/7 support.
+
+For more detailed data visit the [MotoPress Content Editor](http://www.getmotopress.com/content-editor/) page or you [try how it works](http://demo.getmotopress.com/wp-admin/).
 
 
-* Drag and Drop editor lets users create, add and edit content blocks on the fly and get really advanced layouts for your website.
+Key Benefits of MotoPress Layout Editor:
 
-* Twitter Bootstrap based platform includes responsive grid system, LESS CSS, dozens of interface components and useful JavaScript extensions.
+- Drag and Drop editor lets users create, add and edit content blocks on the fly and get really advanced layouts for your website.
+- Twitter Bootstrap based platform includes responsive grid system, LESS CSS, dozens of interface components and useful JavaScript extensions.
+- Simple familiar techniques and basic skills are preferred to use. You may develop in your own way with no limits and additional unnecessary requirements.
 
-* Simple familiar techniques and basic skills are preferred to use. You may develop in your own way with no limits and additional unnecessary requirements.
+By using MotoPress Layout Editor you are able to:
 
-By using MotoPress Wordpress plugin you are able to:
-
-- easily create, change and duplicate website's pages;
+- create, change and duplicate website pages;
 - remove template pages with ease;
-- fully change the layout's structure;
-- display and hide website's blocks on different devices;
+- fully change the layout structure;
+- display and hide website blocks on different devices;
 - quickly manage content right on your WordPress site;
-- change, move and add content blocks only with few clicks;
-- edit blocks with website's data and view the changes at once;
-- manage media with ease;
+- change, move and add content blocks only with a few clicks;
+- edit blocks with website data and view the changes at once;
+- manage media;
 - edit new widgets, posts and pages;
-- make your website responsive and adaptive;
+- make your website responsive and adaptive.
+
 
 Check out tailored MotoPress website templates made specifically to be used with the plugin. For more information visit [MotoPress](http://www.getmotopress.com)
 
@@ -70,6 +75,9 @@ Check out tailored MotoPress website templates made specifically to be used with
 
 == Changelog ==
 
+= 1.2 =
+Minor bug fixes.
+
 = 1.1 =
 Minor bug fixes.
 
@@ -77,6 +85,9 @@ Minor bug fixes.
 Version 1.0
 
 == Upgrade Notice ==
+
+= 1.2 =
+Minor bug fixes.
 
 = 1.1 =
 Minor bug fixes.
