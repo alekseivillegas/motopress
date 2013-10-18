@@ -75,6 +75,9 @@ Check out tailored MotoPress website templates made specifically to be used with
 
 == Changelog ==
 
+= 1.3 =
+Minor bug fixes (getLanguage).
+
 = 1.2 =
 Minor bug fixes.
 
@@ -85,6 +88,9 @@ Minor bug fixes.
 Version 1.0
 
 == Upgrade Notice ==
+
+= 1.3 =
+Minor bug fixes (getLanguage).
 
 = 1.2 =
 Minor bug fixes.
