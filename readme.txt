@@ -8,16 +8,20 @@ Stable tag: trunk
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-MotoPress is intuitive and easy to use plugin that allows you easily change the overall appearance of your website by editing your site's layout
+MotoPress Layout Editor is a professional plugin for developers. It enables to build and edit  the layout of a WordPress theme.
 == Description ==
-
-MotoPress Layout Editor is your fast and successful way to edit the appearance of your website, blog or online store based on WordPress. This easy to use plugin allows you to create, move and change page templates quickly and easily. Without any particular technical knowledge you are able to manage media data, add new blocks, change their places, duplicate and delete them. The gold of MotoPress Layout Editor is the opportunity to customize all data right in the builder and view all changes in real time.
 
 = Now available: MotoPress Content Editor for any WordPress website =
 MotoPress Content Editor replaces the default WordPress builder and enables to create any post structure. Its intuitive drag and drop functionality allows users to manage text, add built-in content elements and without HTML tags fully customize your article. 
 MotoPress Content Editor works with any WordPress theme and includes 24/7 support.
 
 For more detailed data visit the [MotoPress Content Editor](http://www.getmotopress.com/content-editor/) page.
+
+MotoPress Layout Editor enables to edit website elements, such as: header, footer, sidebar and content area.
+Simply by dragging and dropping these objects users are able to create the layout of website page.
+
+= Layout Editor works with WordPress themes made specially for this plugin. =
+It is also compatible with the PrimePress theme, which you can download [here](http://www.getmotopress.com/themes/primepress/) absolutely for free. To know more how to modify your theme for MotoPress Layout Editor you can following the [link](http://www.getmotopress.com/blog/wordpress-themes-for-motopress/)
 
 
 Key Benefits of MotoPress Layout Editor:
@@ -38,9 +42,6 @@ By using MotoPress Layout Editor you are able to:
 - manage media;
 - edit new widgets, posts and pages;
 - make your website responsive and adaptive.
-
-
-Check out tailored MotoPress website templates made specifically to be used with the plugin. For more information visit [MotoPress](http://www.getmotopress.com)
 
 == Installation ==
 
