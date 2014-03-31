@@ -1,9 +1,9 @@
 <?php
 /*
-Plugin Name: MotoPress
+Plugin Name: MotoPress Layout Editor
 Plugin URI: http://www.getmotopress.com/
-Description: MotoPress is the efficient, intuitive and easy to use plugin that allows you easily change the overall appearance of your website by editing your sites layout.
-Version: 1.3.1
+Description: MotoPress Layout Editor is the efficient, intuitive and easy to use plugin that allows you easily change the overall appearance of your website by editing your sites layout.
+Version: 2.0
 Author: MotoPress
 Author URI: http://www.getmotopress.com/
 License: GPLv2
@@ -45,7 +45,7 @@ function motopressMenu() {
     global $lang;
     $lang = getLanguageDict();
 
-    $mainPage = add_menu_page('MotoPress', 'MotoPress', 'read', 'motopress', 'motopress', plugin_dir_url(__FILE__) . 'favicon.ico', null);
+    $mainPage = add_menu_page('MotoPress', 'MotoPress', 'read', 'motopress', 'motopress', plugin_dir_url(__FILE__) . 'images/menu-icon.png', null);
 
     global $requirements;
     $requirements = new Requirements();
@@ -146,14 +146,14 @@ function showWelcomeScreen() {
     echo '<center><a href="'.$link.'" class="btn-wide '.$disabledClass.'" id="motopress-visual-editor-btn">' . $lang->visualEditor . '</a></center>';
 
     if (!$isSupportedTheme) {
-        echo '<p><div class="alert alert-error" id="motopress-theme-support-msg">'.$lang->themeNotSupported.'</div></p>';
+        echo '<p><div class="alert alert-info" id="motopress-theme-support-msg">'.$lang->themeNotSupported.'</div></p>';
     }
 
     if (!$isjQueryVer) {
-        echo '<p><div class="alert alert-error" id="motopress-jquery-support-msg">'.strtr($lang->jQueryVerNotSupported, array('%minjQueryVer%' => $requirements->getMinjQueryVer(), '%minjQueryUIVer%' => $requirements->getMinjQueryUIVer())).'</div></p>';
+        echo '<p><div class="alert alert-info" id="motopress-jquery-support-msg">'.strtr($lang->jQueryVerNotSupported, array('%minjQueryVer%' => $requirements->getMinjQueryVer(), '%minjQueryUIVer%' => $requirements->getMinjQueryUIVer())).'</div></p>';
     }
 
-    echo '<p><div class="alert alert-error" id="motopress-browser-support-msg" style="display: none;">'.$lang->browserNotSupported.'</div></p>';
+    echo '<p><div class="alert alert-info" id="motopress-browser-support-msg" style="display: none;">'.$lang->browserNotSupported.'</div></p>';
 }
 
 function motopressInstall() {

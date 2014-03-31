@@ -76,6 +76,9 @@ Check out tailored MotoPress website templates made specifically to be used with
 
 == Changelog ==
 
+= 2.0 =
+To use the Layout Editor you need to indicate version 2.0 in your Style CSS.
+
 = 1.3.1 =
 Minor bug fixes (getLanguage).
 
@@ -92,6 +95,9 @@ Minor bug fixes.
 Version 1.0
 
 == Upgrade Notice ==
+
+= 2.0 =
+To use the Layout Editor you need to indicate version 2.0 in your Style CSS.
 
 = 1.3 =
 Minor bug fixes (getLanguage).

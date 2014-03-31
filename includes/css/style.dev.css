@@ -107,7 +107,7 @@
 }
 
 .motopress-title-page #motopress-description {
-    color: #aaaaaa;
+    color: #606060;
     font-size: 16px;
     font-family: arial;
     line-height: 25px;
@@ -116,6 +116,10 @@
 
 .motopress-title-page #motopress-logo {
     margin-top: 30px;
+}
+
+.motopress-title-page .btn-wide.disabled {
+    display: none;
 }
 
 select {
