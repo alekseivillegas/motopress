@@ -21,7 +21,7 @@ MotoPress Layout Editor enables to edit website elements, such as: header, foote
 Simply by dragging and dropping these objects users are able to create the layout of website page.
 
 = Layout Editor works with WordPress themes made specially for this plugin. =
-It is also compatible with the PrimePress theme, which you can download [here](http://www.getmotopress.com/themes/primepress/) absolutely for free. To know more how to modify your theme for MotoPress Layout Editor you can following the [link](http://www.getmotopress.com/blog/wordpress-themes-for-motopress/)
+To know more how to modify your theme for MotoPress Layout Editor you can following the [link](http://www.getmotopress.com/blog/wordpress-themes-for-motopress/)
 
 
 Key Benefits of MotoPress Layout Editor:
